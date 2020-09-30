@@ -1,0 +1,41 @@
+.agenda {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.agenda .day {
+  width: 100%;
+  background: blue;
+  margin-right: 2px;
+  background: #ececec;
+  border-radius: 3px;
+}
+
+.agenda .content-day {
+  height: 67vh;
+  overflow-y: scroll;
+}
+
+/* New */
+.agenda .button-current-week {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  background-color: #112b6f;
+
+  color: white;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 4px 0px;
+
+  transition: 0.2s;
+}
+
+.agenda .button-current-week:hover {
+  filter: brightness(90%);
+}

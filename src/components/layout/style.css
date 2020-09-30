@@ -1,0 +1,14 @@
+/* LG  - Logo
+   CN  - Consultant Name
+   RA  - Request Area
+   CON - Conteúdo
+*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 250px 80% auto;
+  grid-template-rows: 110px 250px auto;
+  grid-template-areas:
+    "LG CN"
+    "RA CON";
+}

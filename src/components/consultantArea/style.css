@@ -1,0 +1,15 @@
+.consultant-area {
+  grid-area: CN;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+
+  color: #112b6f;
+}

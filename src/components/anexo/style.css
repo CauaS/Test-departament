@@ -1,0 +1,27 @@
+.container-anexo {
+  background-color: #f5f5f0;
+  width: 100%;
+  margin: 0;
+  margin: 5px;
+}
+.container-anexo .item-anexo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-anexo .button-open {
+  background-color: #112b6f;
+  color: white;
+  padding: 8px;
+  border-radius: 3px;
+  transition: 0.2s;
+  cursor: pointer;
+  margin: 0 0 0 5px;
+}
+.container-anexo .button-open:hover {
+  filter: contrast(175%);
+}
+
+.container-anexo .item-patch {
+  cursor: pointer;
+}
